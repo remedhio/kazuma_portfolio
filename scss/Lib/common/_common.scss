@@ -1,0 +1,85 @@
+/*----------------------
+  共通のスタイル(使わないものは消して問題なし)
+-----------------------*/
+
+a {
+  transition: 0.5s;
+  &:hover {
+    opacity: .7;
+    transition: 0.5s;
+  }
+}
+
+.unit {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.fz12 {
+  font-size: 1.2rem;
+}
+
+.fz14 {
+  font-size: 1.4rem;
+}
+
+.fz16 {
+  font-size: 1.6rem;
+}
+
+.fz18 {
+  font-size: 1.8rem;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
